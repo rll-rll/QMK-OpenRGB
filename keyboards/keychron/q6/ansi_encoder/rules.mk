@@ -23,6 +23,7 @@ RGB_MATRIX_DRIVER = CKLED2001
 LTO_ENABLE = yes
 EEPROM_DRIVER = wear_leveling
 WEAR_LEVELING_DRIVER = embedded_flash
+RAW_ENABLE = yes
 OPENRGB_ENABLE = yes
 
 # Enter lower-power sleep mode when on the ChibiOS idle thread
