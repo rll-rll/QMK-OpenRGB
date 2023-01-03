@@ -24,7 +24,7 @@
 
 
 #define RGB_DI_PIN B8
-#define DRIVER_LED_TOTAL 34
+#define RGB_MATRIX_LED_COUNT 34
 #define RGBLED_NUM 34
 
 #define WS2812_PWM_DRIVER PWMD4               // default: PWMD2

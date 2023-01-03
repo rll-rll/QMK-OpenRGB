@@ -26,7 +26,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGB_MATRIX_STARTUP_VAL RGB_MATRIX_MAXIMUM_BRIGHTNESS * 3/4
 
 /* The number of LEDs connected (7 Snowflake, 34 Underglow) */
-#define DRIVER_LED_TOTAL 41
+#define RGB_MATRIX_LED_COUNT 41
 #define RGBLED_NUM 41
 #define RGB_MATRIX_LED_COUNT 41
 
