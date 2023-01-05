@@ -310,7 +310,7 @@ void openrgb_set_mode(uint8_t *data) {
     const uint8_t h     = data[1];
     const uint8_t s     = data[2];
     const uint8_t v     = data[3];
-    const uint8_t mode  = data[4];
+    const uint8_t mode  = data[4] == 28 ? 27 : data[4];
     const uint8_t speed = data[5];
     const uint8_t save = data[6];
 
